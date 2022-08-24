@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: #005689;
+  color: #fff;
+  padding: 20px 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 9999; }
+
+#sticky {
+  top: 0;
+  width: 100%; }
+
+#nav {
+  position: fixed; }
+
+.navbar-logo {
+  font-size: 2rem;
+  margin-left: 20px;
+  font-weight: 600;
+  cursor: pointer; }
+
+.navbar ul li {
+  list-style: none;
+  float: left;
+  margin: 0 20px;
+  position: relative; }
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase; }
+
+.navbar ul li::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background: #18a1fc;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s; }
+
+.navbar ul li:hover::after {
+  width: 100%; }
+
+.content {
+  display: flex; }
+
+.bio {
+  max-height: 100%;
+  color: black;
+  flex: 3;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #5ab9a7; }
+  .bio .img-wrapper img {
+    width: 250px; }
+  .bio .contact h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    margin: 20px 0;
+    color: white; }
+  .bio .contact .contact-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px; }
+    .bio .contact .contact-wrapper .icon-bio i {
+      font-size: 20px;
+      color: white; }
+    .bio .contact .contact-wrapper .value-bio {
+      font-size: 18px;
+      color: white;
+      letter-spacing: 1px;
+      font-family: "Poppins", sans-serif; }
+      .bio .contact .contact-wrapper .value-bio a {
+        color: white;
+        text-decoration: none; }
+  .bio .contact .expertise-wrapper ul {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    color: white; }
+    .bio .contact .expertise-wrapper ul li {
+      margin-left: -15px;
+      margin-bottom: 26px; }
+
+.profile {
+  background: #f7f7f7;
+  height: 100vh;
+  flex: 10;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px; }
+  .profile .about-me {
+    font-family: "Poppins", sans-serif; }
+    .profile .about-me .name h1,
+    .profile .about-me .name h2 {
+      text-align: center;
+      margin: 0;
+      line-height: 60px; }
+    .profile .about-me .name h1 {
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      font-size: 40px; }
+    .profile .about-me .name h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: 35px; }
+    .profile .about-me .desc {
+      padding: 40px; }
+      .profile .about-me .desc p {
+        font-size: 18px;
+        line-height: 38px;
+        text-align: justify; }
+  .profile .line {
+    width: 80%;
+    height: 1px;
+    background: black; }
+  .profile .work-experince {
+    width: 93%; }
+    .profile .work-experince h1 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      font-size: 40px;
+      margin-bottom: 10px; }
+    .profile .work-experince .experience {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px; }
+      .profile .work-experince .experience .company {
+        font-size: 30px;
+        font-weight: bold; }
+      .profile .work-experince .experience .year {
+        font-weight: bold;
+        font-size: 25px; }
+    .profile .work-experince .title {
+      font-size: 24px; }
+    .profile .work-experince .job-desc ul li {
+      font-size: 20px;
+      margin-bottom: 10px;
+      text-align: justify;
+      line-height: 30px; }

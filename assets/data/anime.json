@@ -1,0 +1,24 @@
+{
+  "anime": [
+    {
+      "name": "Yorn",
+      "skill": "Arcer",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK2i1reHlS4e_ddmLqAF-4KbgyXmmWLEtThg&usqp=CAU"
+    },
+    {
+      "name": "Paine",
+      "skill": "Assasin",
+      "img": "https://gamefinity.id/wp-content/uploads/2022/04/Paine-Banner.jpg"
+    },
+    {
+      "name": "Xeniel",
+      "skill": "Support",
+      "img": "https://upoint.id/images/news/1007190923345-hero-tank-terbaik-di-aov-arena-of-valor.png"
+    },
+    {
+      "name": "Murad",
+      "skill": "Assasin",
+      "img": "https://api.duniagames.co.id/api/content/upload/file/7921246701576397428.jpg"
+    }
+  ]
+}
