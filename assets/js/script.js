@@ -1,5 +1,5 @@
 function loadAnime() {
-  fetch("../data/anime.json")
+  fetch("assets/data/anime.json")
     .then((response) => response.json())
     .then((data) => {
       document.getElementById("data-anime").innerHTML = "";
