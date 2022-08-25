@@ -1,5 +1,6 @@
+const anime = require("../data/anime.json");
 function loadAnime() {
-  fetch("assets/data/anime.json")
+  fetch(anime)
     .then((response) => response.json())
     .then((data) => {
       document.getElementById("data-anime").innerHTML = "";
