@@ -19,6 +19,36 @@
       "name": "Murad",
       "skill": "Assasin",
       "img": "https://api.duniagames.co.id/api/content/upload/file/7921246701576397428.jpg"
+    },
+    {
+      "name": "Elsu",
+      "skill": "Arcer",
+      "img": "https://cdn.kincir.com/2/MKPHQOJCqxvk1IfViFK9HUl_cYqLgBa4uYb83yPT2lg/transform/rs:fill:760:400/src/production/2019-08/a2e17bb079c7330d9c034bfea4d4f49e1e9e5ad7.jpg"
+    },
+    {
+      "name": "Airi",
+      "skill": "Warrior",
+      "img": "https://cdn.kincir.com/2/fXCZWJ4ncG56JkfDyt4XI4Eq1d5WH2wrBJXe1iLeAU4/transform/rs:fill:764:400/src/production/2019-08/f1c36520f711d1d05c58d246f57cf6c59fafe6ad.jpg"
+    },
+    {
+      "name": "Max",
+      "skill": "Warrior",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_gbcMR0cRS2SdldFr8yEOfE2T6l1HdGNrcA&usqp=CAU"
+    },
+    {
+      "name": "Butterfly",
+      "skill": "Assasin",
+      "img": "https://media-assets-ggwp.s3.ap-southeast-1.amazonaws.com/2020/02/aov-1-1.jpg"
+    },
+    {
+      "name": "Ryoma",
+      "skill": "Warrior",
+      "img": "https://gamebrott.com/wp-content/uploads/2019/01/Ryoma-Yakuza-1.jpg"
+    },
+    {
+      "name": "Florentino",
+      "skill": "Warrior",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbc5hCs5hkouKzz-F2ONgRaXBTKGuDlY7EeQ&usqp=CAU"
     }
   ]
 }
